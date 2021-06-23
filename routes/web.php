@@ -107,3 +107,11 @@ Route::delete('posts-two/{id}', [PostsApiController::class, 'destroy']);
 // by laarvel when we just want all crud related routes without to much modification
 // we can use it and it will generate routes just like above
 // Route::apiResource('posts-two', PostsWebController::class);
+
+
+
+// you can deep dive into resources and apiResource options and various ways we can use it 
+//  at https://laravel.com/docs/8.x/controllers 
+
+// we will practice shallow nesting, dependency injection , method injection and other advance
+// component related topics later
